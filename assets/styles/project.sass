@@ -1,0 +1,119 @@
+.projects
+    margin: 2%
+    &_header
+        font-size: 60px
+        font-style: italic
+        padding-bottom: 10px
+.project
+    &_header
+        display: grid
+        grid-template-columns: 1fr 3fr
+        gap: 1rem
+        font-family: sans-serif
+        span
+            border-top: 1px solid #000
+            padding: 1rem
+            font-size: 30px
+            text-align: center   
+    &_infos
+        margin-top: 1rem
+        &--name
+            position: relative
+            font-size: 3vw
+            font-family: sans-serif
+            display: flex
+            align-items: center
+            font-weight: 400px
+
+    &_img
+        position: relative
+        height: 70vh
+        display: grid
+        grid-template-columns: 1fr 3fr
+
+        &-visual
+            grid-column: 3
+            img
+                width: 60%
+                height: 600px
+                object-fit: cover
+                position: absolute
+                right: 2vw
+                top: 3rem
+
+    &_links
+        padding-top: 3rem
+        grid-column:  1
+        button
+            &:before
+                    background: #000
+            &:after 
+                    display: none
+            
+    &_tags
+        position: absolute
+        bottom: 1rem
+        display: flex
+        flex-direction: column
+        gap: 1rem
+
+.coolFunnyLink
+    position: relative
+    font-family: sans-serif
+    svg
+        position: absolute
+        bottom: -5px
+        left: 0
+        stroke-width:  1px
+        width: 95px
+        path
+            stroke-dasharray: 1
+            stroke-dashoffset: 1
+            transition: stroke-dashoffset 0.6s cubic-bezier(0.7,0,0.3,1)
+
+    &:hover
+        svg path 
+            stroke-dashoffset: 0
+            transition-timing-function: cubic-bezier(0.8,1,0.7,1)
+    
+@media (max-width: 1350px)
+    .projects
+        padding: 3rem
+    .project_img img
+        width: 50%
+        right: 5rem
+
+    .project_infos--name
+        font-size: 38px
+    .project .coolCircleEyeButton
+        
+        transform:  translate(6rem, -3rem)
+    .eye
+        margin-left: 55%
+@media ( max-width:740px  )
+    .projects
+        padding: 1rem
+    .project_tags
+        flex-direction: row
+        top: 0
+        left: 0
+    .project_infos--name
+        font-size: 35px
+        span
+            display: none
+        
+    .project_img img
+        width: 40%
+        height: 60vh
+        right: 1rem
+    .project .coolCircleEyeButton
+        transform:  translate(2rem, -2rem)
+@media ( max-width: 440px )
+    .project_tags
+        gap: 6px
+        font-size: 14px
+    .project_header span
+        font-size: 25px
+
+    .project .coolCircleEyeButton
+        transform:  translate(1rem, -1rem)
