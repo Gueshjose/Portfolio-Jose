@@ -1,0 +1,7 @@
+import "../styles/style.sass"
+import "../styles/loader.sass"
+import "../styles/landing.sass"
+import "../styles/coolLink.sass"
+import "../styles/skills.sass"
+import "../styles/project.sass"
+import "../styles/contact.sass"

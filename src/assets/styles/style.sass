@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Lusitana&family=Orbitron&display=swap')
+
+*
+    margin: 0
+    box-sizing: border-box
+    &:after,
+    &::before
+        box-sizing: border-box
+
+html, body
+    overflow-x: hidden
+
+
+body
+    font-family: 'Lusitana', serif
+    line-height: 1.5
+    -webkit-font-smoothing: antialiased
+    height: 100vh
+    position: relative
+
+.block
+    height: 50px
+    width: 200vw
+    background: red
+
+a
+    text-decoration: none
+    color: inherit
+li
+    list-style: none
+
+/*---------- Variables --------*/
+
+$blue-color: #6cdaff
+$dark-blue-color: #5aafaf
+$firstIconColor: #f44336
+$secondIconColor: #2196f3
+$yellowColor: #ffea5c
+
+/* ------------ Predifined classes ---------------------------------*/
+
+.section
+    padding: 1rem
+    overflow: hidden
+    min-height: 100vh
+    padding-top: 5rem
+    @media (min-width: 650px)
+        padding: 5rem
+    &_header
+        &-title 
+            font-weight: 400
+            font-size: 17px
+            color: #666
+        &-subtitle
+            font-size: 27px
+            font-weight: 700
