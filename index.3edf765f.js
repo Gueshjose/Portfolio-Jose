@@ -142,7 +142,7 @@
       this[globalName] = mainExports;
     }
   }
-})({"fHzeq":[function(require,module,exports) {
+})({"9e0Lv":[function(require,module,exports) {
 "use strict";
 var global = arguments[3];
 var HMR_HOST = null;
@@ -540,6 +540,6 @@ var _skillsSass = require("../styles/skills.sass");
 var _projectSass = require("../styles/project.sass");
 var _contactSass = require("../styles/contact.sass");
 
-},{"../styles/style.sass":"39YTC","../styles/loader.sass":"c53tW","../styles/landing.sass":"l530a","../styles/coolLink.sass":"lT0Ns","../styles/skills.sass":"c1v0w","../styles/project.sass":"jKq7k","../styles/contact.sass":"hNFdQ"}],"39YTC":[function() {},{}],"c53tW":[function() {},{}],"l530a":[function() {},{}],"lT0Ns":[function() {},{}],"c1v0w":[function() {},{}],"jKq7k":[function() {},{}],"hNFdQ":[function() {},{}]},["fHzeq","fxZy5"], "fxZy5", "parcelRequire2041")
+},{"../styles/style.sass":"39YTC","../styles/loader.sass":"c53tW","../styles/landing.sass":"l530a","../styles/coolLink.sass":"lT0Ns","../styles/skills.sass":"c1v0w","../styles/project.sass":"jKq7k","../styles/contact.sass":"hNFdQ"}],"39YTC":[function() {},{}],"c53tW":[function() {},{}],"l530a":[function() {},{}],"lT0Ns":[function() {},{}],"c1v0w":[function() {},{}],"jKq7k":[function() {},{}],"hNFdQ":[function() {},{}]},["9e0Lv","fxZy5"], "fxZy5", "parcelRequire2041")
 
 //# sourceMappingURL=index.3edf765f.js.map
