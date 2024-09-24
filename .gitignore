@@ -1,0 +1,15 @@
+# Node modules
+node_modules/
+
+# Build outputs
+dist/
+build/
+
+# Sass cache files
+.sass-cache/
+
+# Log files
+*.log
+
+# OS generated files
+.DS_Store
