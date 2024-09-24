@@ -2,11 +2,10 @@
   "name": "portfolio",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
     "cleanup": "rm -rf .parcel-cache dist",
     "dev": "npm run cleanup && parcel src/index.html --open",
-    "build": "parcel src/index.html --public-url",
+    "build": "parcel build src/index.html --public-url ./",
     "deploy": "gh-pages -d dist"
   },
   "keywords": [],
