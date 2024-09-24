@@ -891,11 +891,11 @@ li {
 
 @keyframes moveleft {
   0% {
-    transform: translate3d(0, 0, 0);
+    transform: translate3d(125%, 0, 0);
   }
 
   100% {
-    transform: translate3d(-50%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
   }
 }
 
@@ -907,11 +907,11 @@ li {
 
 @keyframes moveright {
   0% {
-    transform: translate3d(0, 0, 0);
+    transform: translate3d(-70%, 0, 0);
   }
 
   100% {
-    transform: translate3d(50%, 0, 0);
+    transform: translate3d(100%, 0, 0);
   }
 }
 
@@ -941,6 +941,10 @@ li {
   padding-bottom: 10px;
   font-size: 60px;
   font-style: italic;
+}
+
+.project {
+  margin-top: 2rem;
 }
 
 .project_header {
@@ -992,7 +996,11 @@ li {
 
 .project_links {
   grid-column: 1;
-  padding-top: 3rem;
+  padding-top: 1rem;
+}
+
+.project_links .coolCircleEyeButton {
+  left: 5rem;
 }
 
 .project_links button:before {
@@ -1020,7 +1028,7 @@ li {
   stroke-width: 1px;
   width: 95px;
   position: absolute;
-  bottom: -5px;
+  bottom: -8px;
   left: 0;
 }
 
