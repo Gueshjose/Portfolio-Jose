@@ -6,6 +6,7 @@
     "cleanup": "rm -rf .parcel-cache dist",
     "dev": "npm run cleanup && parcel src/index.html --open",
     "build": "parcel build src/index.html --public-url ./",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
   "keywords": [],
